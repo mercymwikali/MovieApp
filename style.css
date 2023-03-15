@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fadaa9;
+    font-family: sans-serif;
+}
+
+.navbar{
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #9c2d41;
+    font-family: 'Italianno', cursive;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 1.8px;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.search-container{
+    float: right;
+}
+
+form{
+    background-color: inherit;
+    width: 300px;
+    height: 43px;
+    display: flex;
+    border-radius: 9px;
+    align-items: center;
+    border: 1px solid rgb(218, 214, 214);
+}
+
+input{
+    all: unset;
+    font: 15px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+
+input::placeholder{
+    color: rgb(158, 146, 130);
+}
+
+.thumbnail{
+    border-radius: 9px;
+    /* width: 300px; */
+    height: 300px;
+}
+
+.column{
+    float: left;
+    padding:10px 10px;
+    width: max-content;
+    width: 25%;
+    align-items: center;
+    /* flex-basis: ; */
+}
+
+.card{
+    background-color: #fadfb8;
+    padding: 15px;
+    /* margin:10px; */
+    text-align: center;
+    border-radius: 9px;
+    /* width: 40%; */
+    display: inline-table;
+
+    
+}
+
+h3{
+    color: #9c2d41;
+    font-size: 600;
+}
